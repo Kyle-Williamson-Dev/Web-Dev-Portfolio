@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Spartan:300,400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:300|Spartan:300,400,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
 
 body,
 html {
@@ -7,9 +11,31 @@ html {
   padding: 0;
 }
 
+.menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  float: right;
+  font-family: "Muli", serif;
+  font-size: 23px;
+  display: block;
+  padding: 15px 7px;
+  margin-right: 15px;
+}
+
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("rockies.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("denver2.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +44,7 @@ html {
 }
 
 .hero-text {
-  font-family: "Spartan";
+  font-family: "Muli";
   font-weight: normal;
   text-align: center;
   position: absolute;
@@ -26,4 +52,28 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+button {
+  background: transparent;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid white;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
 }
