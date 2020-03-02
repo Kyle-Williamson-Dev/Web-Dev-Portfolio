@@ -88,6 +88,9 @@ button:active {
 @media all and (max-width: 468px) {
   .menu {
     justify-content: center;
+  }
+
+  .menu li a {
     text-align: center;
   }
 }
