@@ -33,6 +33,12 @@ html {
   margin-right: 15px;
 }
 
+.menu li a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("denver2.jpg");
