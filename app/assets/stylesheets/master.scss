@@ -11,6 +11,8 @@ html {
   padding: 0;
 }
 
+// Homepage //
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -102,3 +104,20 @@ button:active {
     padding: 10px 10px;
   }
 }
+
+// About page //
+
+.aboutnav {
+  background-color: #3b3b3b;
+  height: 62px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+// Projects page //

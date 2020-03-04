@@ -1,9 +1,10 @@
 <div class="hero-image">
   <div class="topnav">
     <ul class="menu">
-      <li class="item"><a href="#">Home</a></li>
       <li class="item"><a href="#">Projects</a></li>
-      <li class="item"><a href="#">About Me</a></li>
+      <li>
+        <%= link_to 'About me', about_index_path, class: 'nav-link' %>
+      </li>
     </ul>
   </div>
   <div class="hero-text">
