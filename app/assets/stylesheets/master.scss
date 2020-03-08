@@ -67,6 +67,7 @@ html {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  margin: 0;
 }
 
 .box-area li {
@@ -79,14 +80,14 @@ html {
   animation: animate 30s linear infinite;
 }
 
-.box-aera li:nth-child(1) {
+.box-area li:nth-child(1) {
   left: 86%;
   width: 80px;
   height: 80px;
   animation-delay: 0s;
 }
 
-.box-aera li:nth-child(2) {
+.box-area li:nth-child(2) {
   left: 12%;
   width: 30px;
   height: 30px;
@@ -94,14 +95,14 @@ html {
   animation-duration: 10s;
 }
 
-.box-aera li:nth-child(3) {
+.box-area li:nth-child(3) {
   left: 70%;
   width: 100px;
   height: 100px;
   animation-delay: 5.5s;
 }
 
-.box-aera li:nth-child(4) {
+.box-area li:nth-child(4) {
   left: 70%;
   width: 150px;
   height: 150px;
@@ -109,14 +110,14 @@ html {
   animation-duration: 15s;
 }
 
-.box-aera li:nth-child(5) {
+.box-area li:nth-child(5) {
   left: 65%;
   width: 40px;
   height: 40px;
   animation-delay: 0s;
 }
 
-.box-aera li:nth-child(6) {
+.box-area li:nth-child(6) {
   left: 15%;
   width: 110px;
   height: 110px;
