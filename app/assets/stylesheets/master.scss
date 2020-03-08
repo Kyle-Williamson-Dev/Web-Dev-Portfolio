@@ -161,6 +161,15 @@ button {
   transition: 0.3s;
 }
 
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover {
+  color: black;
+}
+
 button:hover {
   background-color: white;
   color: black;
