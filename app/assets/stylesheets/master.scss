@@ -138,11 +138,27 @@ html {
 }
 
 .box-area li:nth-child(7) {
-  left: 78%;
+  left: 38%;
   width: 45px;
   height: 110px;
   animation-delay: 0s;
   animation-duration: 10s;
+}
+
+.box-area li:nth-child(8) {
+  left: 50%;
+  width: 95px;
+  height: 65px;
+  animation-delay: 2s;
+  animation-duration: 17s;
+}
+
+.box-area li:nth-child(9) {
+  left: 28%;
+  width: 55px;
+  height: 85px;
+  animation-delay: 1.5s;
+  animation-duration: 7s;
 }
 
 // Animation code
@@ -228,7 +244,7 @@ button:active {
   }
 }
 
-// Projects page //
+// P page //
 
 .projectsnav {
   background-color: #3b3b3b;
