@@ -22,4 +22,3 @@ class ContactFormsController < ApplicationController
     end
   end
 end
-end
