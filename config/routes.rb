@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get "/", to: "homepage#home", as: "root"
-  root "about#index"
   resources :about
   resources :projects
-  resources :contacts, only:[:index, :new, :create]
+  resources :contacts, only: [:new, :create]
+  get "/", to: "homepage#home", as: "root"
+  root "about#index"
 end
