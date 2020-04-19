@@ -1,26 +1,16 @@
-<h1 class="page_title">Say hello!</h1>
+<div align="center">
+  <h3>Send me a message!</h3>
 
-  <div class="skinny_wrapper wrapper_padding">
-    <%= form_for @contact do |f| %>
-      <%= f.label :name %><br>
-      <%= f.text_field :name, required: true %>
-
-      <br>
-
-      <%= f.label :email %><br>
-      <%= f.text_field :email, required: true %>
-
-      <br>
-
-      <%= f.label :message %><br>
-      <%= f.text_area :message, as: :text %>
-
-      <div class="hidden">
-        <%= f.label :nicname %><br>
-        <%= f.text_field :nickname, hint: 'Leave this field blank' %>
-      </div>
-
-      <%= f.submit 'Send Message', class: "button" %>
-
-    <% end %>
-  </div>
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+    <%= f.input :name, :required => true %>
+    <%= f.input :email, :required => true %>
+    <%= f.input :message, :as => :text, :required => true %>
+    <div class= "hidden">
+      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+    </div>
+    <div>
+      </br>
+      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
