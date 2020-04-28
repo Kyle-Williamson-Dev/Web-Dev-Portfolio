@@ -191,3 +191,27 @@ html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.projectrow1 {
+  margin: 0;
+  // display: flex;
+  top: 50%;
+  left: 50%;
+}
+
+.row {
+  content: "";
+  margin: 0;
+  position: absolute;
+  display: flex;
+  clear: both;
+  top: 50%;
+  left: 50%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
