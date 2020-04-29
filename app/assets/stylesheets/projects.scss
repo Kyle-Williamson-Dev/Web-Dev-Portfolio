@@ -192,26 +192,59 @@ html {
   color: white;
 }
 
-.projectrow1 {
-  margin: 0;
-  // display: flex;
-  top: 50%;
-  left: 50%;
-}
-
 .row {
-  content: "";
   margin: 0;
   position: absolute;
   display: flex;
   clear: both;
+  width: 80%;
   top: 50%;
   left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .column {
   float: left;
+  background-color: white;
   width: 33.33%;
-  padding: 10px;
   height: 300px;
+  margin-right: 30px;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+
+// .column1 {
+//   float: left;
+//   background-color: white;
+//   width: 33.33%;
+//   height: 300px;
+//   margin-right: 30px;
+//   padding-left: 20px;
+//   border-radius: 15px;
+// }
+
+// .column2 {
+//   float: left;
+//   background-color: white;
+//   width: 33.33%;
+//   height: 300px;
+//   margin-right: 30px;
+//   padding-left: 20px;
+//   border-radius: 15px;
+// }
+
+// .column3 {
+//   float: left;
+//   background-color: white;
+//   width: 33.33%;
+//   height: 300px;
+//   padding-left: 20px;
+//   border-radius: 15px;
+// }
+
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
 }
