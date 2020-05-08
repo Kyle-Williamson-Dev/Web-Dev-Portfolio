@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300|Spartan:300,400,600&display=swap");
+// @import "bootstrap";
 
 * {
   box-sizing: border-box;
@@ -214,3 +215,14 @@ button:active {
 }
 
 // Footer //
+
+.footer {
+  background-color: #333;
+  height: 55px;
+  bottom: bottom;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
