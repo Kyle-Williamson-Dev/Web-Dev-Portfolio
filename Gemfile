@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
+gem 'rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -74,3 +74,13 @@ end
 gem 'mail_form'
 gem 'simple_form'
 
+<<<<<<< HEAD
+=======
+gem 'jquery-rails'
+gem 'popper_js'
+gem 'bootstrap'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+>>>>>>> 2d85b08c1fe93441c768bbacb888df8b98810fd1

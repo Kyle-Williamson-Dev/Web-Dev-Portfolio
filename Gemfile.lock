@@ -248,7 +248,11 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   popper_js
   puma (~> 3.11)
+<<<<<<< HEAD
   rails (~> 5.2.4, >= 5.2.4.1)
+=======
+  rails
+>>>>>>> 2d85b08c1fe93441c768bbacb888df8b98810fd1
   rails-assets-tether (>= 1.3.3)!
   rspec-rails
   sass-rails (~> 5.0)
@@ -265,4 +269,4 @@ RUBY VERSION
    ruby 2.5.3p105
 
 BUNDLED WITH
-   1.17.1
+   2.1.4
